@@ -9,6 +9,7 @@ Created on Wed Feb 19 12:32:27 2020
 def solution(N):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     maximum gap (with 0's) in a binary representation of a number
     """
     if not (N >= 1 and N <= 2147483647):
