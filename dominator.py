@@ -9,6 +9,7 @@ Created on Sun Feb 16 16:37:17 2020
 def solution(A):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     dominator = element of an array that occurs more than N/2 times
     """
     N = len(A)
