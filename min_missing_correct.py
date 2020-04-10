@@ -9,6 +9,7 @@ Created on Thu Feb 20 16:21:46 2020
 def solution(A):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     minimal positive misisng array member
     """
     N = len(A)
