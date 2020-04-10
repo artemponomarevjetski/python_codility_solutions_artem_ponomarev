@@ -8,6 +8,7 @@ Created on Wed Feb 19 10:43:03 2020
 
 def solution(M, A):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     count distinct slices
     """
     total_slices = 0
