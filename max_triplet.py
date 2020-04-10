@@ -10,6 +10,7 @@ A = [-3, 1, 2, -2, 5, 6]
 
 def solution(A):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     maximum product among all triplets
     """
     A.sort()
