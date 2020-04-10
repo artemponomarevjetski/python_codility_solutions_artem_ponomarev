@@ -8,6 +8,7 @@ Created on Tue Feb 18 10:57:07 2020
 
 def solution(A, K):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     rotate A K times
     """
     result = [None] * len(A)
