@@ -10,6 +10,7 @@ B=11
 K=2
 def solution(A, B, K):
     """"
+    Task description is given on Codility website, https://app.codility.com/programmers/
     number of divisibles
     """
    
