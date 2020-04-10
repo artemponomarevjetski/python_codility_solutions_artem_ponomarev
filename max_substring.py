@@ -9,6 +9,7 @@ Created on Sun Feb 16 19:03:08 2020
 def solution(A):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     find the maximum sum of elements in all substrings
     """
     N = len(A)
