@@ -1,4 +1,6 @@
 # python_codility_solutions_artem_ponomarev
+#Task descriptions are given on Codility website, https://app.codility.com/programmers/
+
 Hello fellow data scietists! This repo is my attempt to 
 scale the Codility test for job interviews. Even if your 
 employer does not ask you to take this test, it is a good 
