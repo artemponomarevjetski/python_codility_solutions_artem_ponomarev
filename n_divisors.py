@@ -8,6 +8,7 @@ Created on Wed Feb 19 08:41:20 2020
 
 def solution(N):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     number of divisors
     """
     if not (N >= 1 and N <= 2147483647):
