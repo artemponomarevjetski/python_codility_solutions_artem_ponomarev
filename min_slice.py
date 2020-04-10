@@ -13,6 +13,7 @@ A = [4, 2, 2, 5, 1, 5, 8]
 def solution(A):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     """
     N = len(A)
     if N == 0:
