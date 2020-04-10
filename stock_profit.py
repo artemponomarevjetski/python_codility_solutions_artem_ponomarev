@@ -12,6 +12,7 @@ Created on Thu Feb 13 21:32:50 2020
 def solution(A):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     max profit from stocks
     """
     N=len(A)
