@@ -14,3 +14,9 @@ the code as minimalist as possible. Avoid nested loops,
 objects that hold unnecessary information, and try to exit the
 execution as quickly as possible, using 'return' and 'break'
 statements, while keeping the result correct, of course.
+
+Another diffuculty is 'edge' cases. Say, your algo gives the right result for a nice looking and short input. What about extreme cases: null input, one element in A, maybe 2 or 3 elements that are still a special case, large numbers, repeating numbers, drastically different numbers, long inputs, random inputs, inputs with a strange pattern. Or what have you...
+
+Use the user-supplied input to test 'edge' cases.
+
+Getting a correct answer for the default input is where the real game starts. Keep your reasoning skills sharp...
