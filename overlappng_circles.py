@@ -9,6 +9,7 @@ Created on Sun Feb  9 09:12:48 2020
 def solution(A):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     number of pairs of overlapping circles
     """
     N = len(A)
