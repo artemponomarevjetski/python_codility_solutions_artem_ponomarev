@@ -10,6 +10,7 @@ A = [2, 1, 1, 2, 3, 1]
 
 def solution(A):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     number of unique elements in a list
     """
     if not (len(A) > 0 and len(A) <= 1e5):
