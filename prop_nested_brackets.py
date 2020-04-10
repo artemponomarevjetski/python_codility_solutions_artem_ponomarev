@@ -8,6 +8,7 @@ Created on Sun Feb  9 19:05:40 2020
 
 def solution(S):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     check whether there is proper nesting
     """
     N = len(S)
