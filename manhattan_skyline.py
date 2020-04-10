@@ -12,6 +12,7 @@ Created on Sun Feb 16 11:47:18 2020
 def solution(H):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     Manhattan skyline
     """
     N = len(H)
