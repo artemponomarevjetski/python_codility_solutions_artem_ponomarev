@@ -10,6 +10,7 @@ A = [0, 1, 0, 1, 1]
 def solution(A):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     number of pairs of passing cars
     """
     for a in A:
