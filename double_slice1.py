@@ -8,6 +8,9 @@ Created on Tue Feb 18 22:37:32 2020
 
 def solution(A):
     # write your code in Python 3.6
+    """
+    Task description is given on Codility website, https://app.codility.com/programmers/
+    """
     N=len(A)
     if not (N>=3 and N<=1e5):
         return 0
