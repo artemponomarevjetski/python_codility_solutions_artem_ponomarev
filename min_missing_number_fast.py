@@ -9,6 +9,7 @@ test = [0, 1, 2, 3, 4, 7, 9, 12]
 
 def solution(A):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     minimal missing number
     """
     B = [i+1 for i in range(max(A))]
