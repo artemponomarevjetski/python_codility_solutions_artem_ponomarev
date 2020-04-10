@@ -10,6 +10,7 @@ A = [1, 3, 1, 4, 2, 3, 5, 4]; X = 5
 def solution(X, A):
 # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     jumping frog
     """
     N=len(A)
