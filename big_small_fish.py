@@ -9,6 +9,7 @@ Created on Wed Feb 12 21:41:39 2020
 def solution(A, B):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     big/small fish encounters
     """
     N = len(A)
