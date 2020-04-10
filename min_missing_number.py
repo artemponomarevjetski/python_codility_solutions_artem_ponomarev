@@ -12,6 +12,7 @@ test = [3, 4, 6, 7, 9]
 
 def check_squareness(A):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     Makes sure that a matrix is square
         :param A: The matrix to be checked.
     """
