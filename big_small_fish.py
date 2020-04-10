@@ -50,7 +50,35 @@ def solution(A, B):
 # main()
 print("result  = ", solution([4, 3, 2, 1, 5], [0, 1, 0, 0, 0]))
 
-#ask description
+#Analysis summary
+#The solution obtained perfect score.
+#
+#Analysis
+#Detected time complexity:
+#O(N)
+#expand allExample tests
+#▶ example
+#example test ✔OK
+#expand allCorrectness tests
+#▶ extreme_small
+#1 or 2 fishes ✔OK
+#▶ simple1
+#simple test ✔OK
+#▶ simple2
+#simple test ✔OK
+#▶ small_random
+#small random test, N = ~100 ✔OK
+#expand allPerformance tests
+#▶ medium_random
+#small medium test, N = ~5,000 ✔OK
+#▶ large_random
+#large random test, N = ~100,000 ✔OK
+#▶ extreme_range1
+#all except one fish flowing in the same direction ✔OK
+#▶ extreme_range2
+#all fish flowing in the same direction ✔OK
+
+#task description as presented on Codility website:
 #You are given two non-empty arrays A and B consisting of N integers. Arrays A and B represent N voracious fish in a river, ordered downstream along the flow of the river.
 #
 #The fish are numbered from 0 to N − 1. If P and Q are two fish and P < Q, then fish P is initially upstream of fish Q. Initially, each fish has a unique position.
@@ -90,30 +118,3 @@ print("result  = ", solution([4, 3, 2, 1, 5], [0, 1, 0, 0, 0]))
 #the elements of A are all distinct.
 #Copyright 2009–2020 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
 #
-#Analysis summary
-#The solution obtained perfect score.
-#
-#Analysis
-#Detected time complexity:
-#O(N)
-#expand allExample tests
-#▶ example
-#example test ✔OK
-#expand allCorrectness tests
-#▶ extreme_small
-#1 or 2 fishes ✔OK
-#▶ simple1
-#simple test ✔OK
-#▶ simple2
-#simple test ✔OK
-#▶ small_random
-#small random test, N = ~100 ✔OK
-#expand allPerformance tests
-#▶ medium_random
-#small medium test, N = ~5,000 ✔OK
-#▶ large_random
-#large random test, N = ~100,000 ✔OK
-#▶ extreme_range1
-#all except one fish flowing in the same direction ✔OK
-#▶ extreme_range2
-#all fish flowing in the same direction ✔OK
