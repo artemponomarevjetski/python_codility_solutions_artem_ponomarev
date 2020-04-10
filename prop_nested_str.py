@@ -9,6 +9,7 @@ Created on Sun Feb  9 19:05:40 2020
 def solution(S):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     test for properly nested ( and )
     """
     N = len(S)
