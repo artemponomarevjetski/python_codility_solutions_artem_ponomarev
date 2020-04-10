@@ -9,6 +9,7 @@ Created on Tue Feb 18 09:33:35 2020
 def solution(A): # 53%
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     max double slice
     """
     N = len(A)
