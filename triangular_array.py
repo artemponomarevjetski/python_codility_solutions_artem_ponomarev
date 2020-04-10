@@ -9,6 +9,7 @@ A =[ 10,  50,  5,  1]
 
 def solution(A):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     triangular array
     """
     A.sort()
