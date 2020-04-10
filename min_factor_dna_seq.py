@@ -13,6 +13,7 @@ Q = [4, 5, 6]
 def solution(S, P, Q):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     minimal factor for among DNA bases in all DNA sequences
     """
     N = len(S)
