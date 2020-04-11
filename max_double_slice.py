@@ -12,6 +12,7 @@ Created on Fri Apr 10 09:18:46 2020
 def solution(A):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     this is the solution for the max double slice problem
     """
     N = len(A)
