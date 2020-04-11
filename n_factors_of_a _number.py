@@ -9,6 +9,7 @@ import math
 def solution(N):
     # write your code in Python 3.6
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     number of factors of N
     """
     candidate = 1
