@@ -54,6 +54,32 @@ def solution(S, P, Q):
 # main()
 print("result  = ", solution(S, P, Q))
 #
+#Analysis
+#Detected time complexity:
+#O(N + M)
+#expand allExample tests
+#▶ example
+#example test ✔OK
+#expand allCorrectness tests
+#▶ extreme_sinlge
+#single character string ✔OK
+#▶ extreme_double
+#double character string ✔OK
+#▶ simple
+#simple tests ✔OK
+#▶ small_length_string
+#small length simple string ✔OK
+#▶ small_random
+#small random string, length = ~300 ✔OK
+#expand allPerformance tests
+#▶ almost_all_same_letters
+#GGGGGG..??..GGGGGG..??..GGGGGG ✔OK
+#▶ large_random
+#large random string, length ✔OK
+#▶ extreme_large
+#all max ranges ✔OK
+
+#
 #Task description
 #A DNA sequence can be represented as a string consisting of the letters A, C, G and T, which correspond to the types of successive nucleotides in the sequence. Each nucleotide has an impact factor, which is an integer. Nucleotides of types A, C, G and T have impact factors of 1, 2, 3 and 4, respectively. You are going to answer several queries of the form: What is the minimal impact factor of nucleotides contained in a particular part of the given DNA sequence?
 #
@@ -92,28 +118,3 @@ print("result  = ", solution(S, P, Q))
 #P[K] ≤ Q[K], where 0 ≤ K < M;
 #string S consists only of upper-case English letters A, C, G, T.
 #Copyright 2009–2020 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
-#
-#Analysis
-#Detected time complexity:
-#O(N + M)
-#expand allExample tests
-#▶ example
-#example test ✔OK
-#expand allCorrectness tests
-#▶ extreme_sinlge
-#single character string ✔OK
-#▶ extreme_double
-#double character string ✔OK
-#▶ simple
-#simple tests ✔OK
-#▶ small_length_string
-#small length simple string ✔OK
-#▶ small_random
-#small random string, length = ~300 ✔OK
-#expand allPerformance tests
-#▶ almost_all_same_letters
-#GGGGGG..??..GGGGGG..??..GGGGGG ✔OK
-#▶ large_random
-#large random string, length ✔OK
-#▶ extreme_large
-#all max ranges ✔OK
