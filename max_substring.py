@@ -39,6 +39,31 @@ def solution(A):
     return max1
 
 print(solution([3, 2, -6, 4, 0]))
+
+#Analysis summary
+#The solution obtained perfect score.
+#
+#Analysis
+#Detected time complexity:
+#O(N)
+#expand allExample tests
+#▶ example ✔OK
+#expand allCorrectness tests
+#▶ one_element ✔OK
+#▶ two_elements ✔OK
+#▶ three_elements ✔OK
+#▶ simple ✔OK
+#▶ extreme_minimum ✔OK
+#▶ fifty_random ✔OK
+#▶ neg_const ✔OK
+#▶ pos_const ✔OK
+#expand allPerformance tests
+#▶ high_low_1Kgarbage ✔OK
+#▶ 1Kgarbage_high_low ✔OK
+#▶ growing_saw ✔OK
+#▶ blocks ✔OK
+#▶ growing_negative ✔OK
+
 #
 #Task description
 #A non-empty array A consisting of N integers is given. A pair of integers (P, Q), such that 0 ≤ P ≤ Q < N, is called a slice of array A. The sum of a slice (P, Q) is the total of A[P] + A[P+1] + ... + A[Q].
@@ -65,26 +90,3 @@ print(solution([3, 2, -6, 4, 0]))
 #each element of array A is an integer within the range [−1,000,000..1,000,000];
 #the result will be an integer within the range [−2,147,483,648..2,147,483,647].
 #Copyright 2009–2020 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
-#Analysis summary
-#The solution obtained perfect score.
-#
-#Analysis
-#Detected time complexity:
-#O(N)
-#expand allExample tests
-#▶ example ✔OK
-#expand allCorrectness tests
-#▶ one_element ✔OK
-#▶ two_elements ✔OK
-#▶ three_elements ✔OK
-#▶ simple ✔OK
-#▶ extreme_minimum ✔OK
-#▶ fifty_random ✔OK
-#▶ neg_const ✔OK
-#▶ pos_const ✔OK
-#expand allPerformance tests
-#▶ high_low_1Kgarbage ✔OK
-#▶ 1Kgarbage_high_low ✔OK
-#▶ growing_saw ✔OK
-#▶ blocks ✔OK
-#▶ growing_negative ✔OK
