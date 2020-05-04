@@ -43,7 +43,35 @@ def solution(X, A):
 
 # main()
 print("result  = ", solution(X, A))
-
+#
+#O(N)
+#expand allExample tests
+#▶ example
+#example test ✔OK
+#expand allCorrectness tests
+#▶ simple
+#simple test ✔OK
+#▶ single
+#single element ✔OK
+#▶ extreme_frog
+#frog never across the river ✔OK
+#▶ small_random1
+#3 random permutation, X = 50 ✔OK
+#▶ small_random2
+#5 random permutation, X = 60 ✔OK
+#▶ extreme_leaves
+#all leaves in the same place ✔OK
+#expand allPerformance tests
+#▶ medium_random
+#6 and 2 random permutations, X = ~5,000 ✔OK
+#▶ medium_range
+#arithmetic sequences, X = 5,000 ✔OK
+#▶ large_random
+#10 and 100 random permutation, X = ~10,000 ✔OK
+#▶ large_permutation
+#permutation tests ✔OK
+#▶ large_range
+#arithmetic sequences, X = 30,000 ✔OK
 #
 #Task description
 #A small frog wants to get to the other side of a river. The frog is initially located on one bank of the river (position 0) and wants to get to the opposite bank (position X+1). Leaves fall from a tree onto the surface of the river.
@@ -89,32 +117,3 @@ print("result  = ", solution(X, A))
 #N and X are integers within the range [1..100,000];
 #each element of array A is an integer within the range [1..X].
 #Copyright 2009–2020 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
-#
-#O(N)
-#expand allExample tests
-#▶ example
-#example test ✔OK
-#expand allCorrectness tests
-#▶ simple
-#simple test ✔OK
-#▶ single
-#single element ✔OK
-#▶ extreme_frog
-#frog never across the river ✔OK
-#▶ small_random1
-#3 random permutation, X = 50 ✔OK
-#▶ small_random2
-#5 random permutation, X = 60 ✔OK
-#▶ extreme_leaves
-#all leaves in the same place ✔OK
-#expand allPerformance tests
-#▶ medium_random
-#6 and 2 random permutations, X = ~5,000 ✔OK
-#▶ medium_range
-#arithmetic sequences, X = 5,000 ✔OK
-#▶ large_random
-#10 and 100 random permutation, X = ~10,000 ✔OK
-#▶ large_permutation
-#permutation tests ✔OK
-#▶ large_range
-#arithmetic sequences, X = 30,000 ✔OK
