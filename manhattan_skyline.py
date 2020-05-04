@@ -49,6 +49,32 @@ def solution(H):
 # main()
 print("result  = ", solution([8, 8, 5, 7, 9, 8, 7, 4, 8]))
 #
+#Analysis summary
+#The solution obtained perfect score.
+#
+#Analysis
+#Detected time complexity:
+#O(N)
+#expand allExample tests
+#▶ example ✔OK
+#expand allCorrectness tests
+#▶ simple1 ✔OK
+#▶ simple2 ✔OK
+#▶ simple3 ✔OK
+#▶ simple4 ✔OK
+#▶ boundary_cases ✔OK
+#expand allPerformance tests
+#▶ medium1 ✔OK
+#▶ medium2 ✔OK
+#▶ medium3 ✔OK
+#▶ medium4 ✔OK
+#▶ large_piramid ✔OK
+#▶ large_increasing_decreasing ✔OK
+#▶ large_up_to_20 ✔OK
+#▶ large_up_to_100 ✔OK
+#▶ large_max ✔OK
+
+#
 #Task description
 #You are going to build a stone wall. The wall should be straight and N meters long, and its thickness should be constant; however, it should have different heights in different places. The height of the wall is specified by an array H of N positive integers. H[I] is the height of the wall from I to I+1 meters to the right of its left end. In particular, H[0] is the height of the wall's left end and H[N−1] is the height of the wall's right end.
 #
@@ -74,28 +100,3 @@ print("result  = ", solution([8, 8, 5, 7, 9, 8, 7, 4, 8]))
 #N is an integer within the range [1..100,000];
 #each element of array H is an integer within the range [1..1,000,000,000].
 #Copyright 2009–2020 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
-#
-#Analysis summary
-#The solution obtained perfect score.
-#
-#Analysis
-#Detected time complexity:
-#O(N)
-#expand allExample tests
-#▶ example ✔OK
-#expand allCorrectness tests
-#▶ simple1 ✔OK
-#▶ simple2 ✔OK
-#▶ simple3 ✔OK
-#▶ simple4 ✔OK
-#▶ boundary_cases ✔OK
-#expand allPerformance tests
-#▶ medium1 ✔OK
-#▶ medium2 ✔OK
-#▶ medium3 ✔OK
-#▶ medium4 ✔OK
-#▶ large_piramid ✔OK
-#▶ large_increasing_decreasing ✔OK
-#▶ large_up_to_20 ✔OK
-#▶ large_up_to_100 ✔OK
-#▶ large_max ✔OK
