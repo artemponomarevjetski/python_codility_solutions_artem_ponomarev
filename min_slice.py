@@ -50,6 +50,35 @@ def solution(A):
 # main()
 print("result  = ", solution(A))
 
+#Analysis
+#Detected time complexity:
+#O(N)
+#expand allExample tests
+#▶ example
+#example test ✔OK
+#expand allCorrectness tests
+#▶ double_quadruple
+#two or four elements ✔OK
+#▶ simple1
+#simple test, the best slice has length 3 ✔OK
+#▶ simple2
+#simple test, the best slice has length 3 ✔OK
+#▶ small_random
+#random, length = 100 ✔OK
+#▶ medium_range
+#increasing, decreasing (legth = ~100) and small functional ✔OK
+#expand allPerformance tests
+#▶ medium_random
+#random, N = ~700 ✔OK
+#▶ large_ones
+#numbers from -1 to 1, N = ~100,000 ✔OK
+#▶ large_random
+#random, N = ~100,000 ✔OK
+#▶ extreme_values
+#all maximal values, N = ~100,000 ✔OK
+#▶ large_sequence
+#many seqeneces, N = ~100,000 ✔OK
+
 #
 #    Task description
 #A non-empty array A consisting of N integers is given. A pair of integers (P, Q), such that 0 ≤ P < Q < N, is called a slice of array A (notice that the slice contains at least two elements). The average of a slice (P, Q) is the sum of A[P] + A[P + 1] + ... + A[Q] divided by the length of the slice. To be precise, the average equals (A[P] + A[P + 1] + ... + A[Q]) / (Q − P + 1).
@@ -92,31 +121,3 @@ print("result  = ", solution(A))
 #N is an integer within the range [2..100,000];
 #each element of array A is an integer within the range [−10,000..10,000].
 #Copyright 2009–2020 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
-#Analysis
-#Detected time complexity:
-#O(N)
-#expand allExample tests
-#▶ example
-#example test ✔OK
-#expand allCorrectness tests
-#▶ double_quadruple
-#two or four elements ✔OK
-#▶ simple1
-#simple test, the best slice has length 3 ✔OK
-#▶ simple2
-#simple test, the best slice has length 3 ✔OK
-#▶ small_random
-#random, length = 100 ✔OK
-#▶ medium_range
-#increasing, decreasing (legth = ~100) and small functional ✔OK
-#expand allPerformance tests
-#▶ medium_random
-#random, N = ~700 ✔OK
-#▶ large_ones
-#numbers from -1 to 1, N = ~100,000 ✔OK
-#▶ large_random
-#random, N = ~100,000 ✔OK
-#▶ extreme_values
-#all maximal values, N = ~100,000 ✔OK
-#▶ large_sequence
-#many seqeneces, N = ~100,000 ✔OK
