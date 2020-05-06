@@ -11,19 +11,19 @@ def solution(N):
     """
     Task description is given on Codility website, https://app.codility.com/programmers/
     """
-    if not (1 <= N <= 1e9):
+    if not 1 <= N <= 1e9:
         return 0
-    min_per=2*(N+1)
+    min_per = 2*(N+1)
     factor = 1
     while factor * factor < N:
         # N has two factors: factor and N // factor
         if N % factor == 0:
-            min_per=min(min_per, 2*(factor+N//factor))
+            min_per = min(min_per, 2*(factor+N//factor))
         factor += 1
     # the last case is when N is square of some value
     if factor * factor == N:
-        min_per=min(min_per, 4*factor)
-        
+        min_per = min(min_per, 4*factor)
+
     return min_per
 
 print(solution(30))
@@ -38,29 +38,29 @@ print(solution(pow(2, 8)))
 #Detected time complexity:
 #O(sqrt(N))
 #expand allExample tests
-#▶ example 
+#▶ example
 #example test ✔OK
 #expand allCorrectness tests
-#▶ extreme_min 
+#▶ extreme_min
 #N = 1 test ✔OK
-#▶ simple1 
+#▶ simple1
 #N = 36 test ✔OK
-#▶ simple2 
+#▶ simple2
 #N = 48 test ✔OK
-#▶ simple3 
+#▶ simple3
 #N = 101 test ✔OK
-#▶ small 
+#▶ small
 #N = 1,234 test ✔OK
 #expand allPerformance tests
-#▶ medium 
+#▶ medium
 #N = 4,564,320 test ✔OK
-#▶ prime1 
+#▶ prime1
 #N = 15,486,451 test ✔OK
-#▶ square 
+#▶ square
 #N = 100,000,000 test ✔OK
-#▶ prime2 
+#▶ prime2
 #N = 982,451,653 test ✔OK
-#▶ extreme_max 
+#▶ extreme_max
 #N = 1,000,000,000 test ✔OK
 #
 #Task description
