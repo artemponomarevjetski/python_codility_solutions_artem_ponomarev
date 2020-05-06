@@ -20,7 +20,7 @@ def solution(N):
         if N % factor == 0:
             min_per=min(min_per, 2*(factor+N//factor))
         factor += 1
-    # the last case is when N is square of some value.
+    # the last case is when N is square of some value
     if factor * factor == N:
         min_per=min(min_per, 4*factor)
         
