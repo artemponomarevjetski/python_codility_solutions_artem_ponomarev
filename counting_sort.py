@@ -30,4 +30,4 @@ A=[1, 3, 2, 5, 8]
 k=max(A)
 countingSort(A, k)
 print("\n\n\n")
-print(A)
+print('result = ', A)
