@@ -13,31 +13,31 @@ def solution(X, A):
     Task description is given on Codility website, https://app.codility.com/programmers/
     jumping frog
     """
-    N=len(A)
-    if X<=0:
+    N = len(A)
+    if X <= 0:
         return 0
-    if N==0:
+    if N == 0:
         return 0
     if max(A) > X:
         return 0
     for a in A:
-        if not (a>=1 and a<=X):
+        if not (a >= 1 and a <= X):
             return 0
-        if not (N>=1 and N<=1e5):
+        if not (N >= 1 and N <= 1e5):
             return 0
-    if not (X>=1 and X<=1e5):
+    if not (X >= 1 and X <= 1e5):
         return 0
 
-    B=[[i, A[i]] for i in range(N)]
-    C=sorted(B, key=lambda x: x[1])
-    last_stop=0
-    last_drop=0
+    B = [[i, A[i]] for i in range(N)]
+    C = sorted(B, key=lambda x: x[1])
+    last_stop = 0
+    last_drop = 0
     for i in range(N):
-        if last_stop+1==C[i][1]:
-            last_stop+=1
-    if last_drop<C[i][0]:
-        last_drop=C[i][0]
-        if last_stop==X:
+        if last_stop+1 == C[i][1]:
+            last_stop += 1
+    if last_drop < C[i][0]:
+        last_drop = C[i][0]
+        if last_stop == X:
             return last_drop
     return -1
 
