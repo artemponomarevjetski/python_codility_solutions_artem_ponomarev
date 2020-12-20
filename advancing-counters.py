@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Feb 10 08:23:00 2020
-
 @author: artemponomarev
 """
 # write your code in Python 3.6
@@ -11,6 +10,7 @@ N = 5
 
 def solution(N, A):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     advancing counters
     """
     if N <= 0:
