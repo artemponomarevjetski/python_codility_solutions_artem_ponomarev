@@ -11,6 +11,7 @@ N = 5
 
 def solution(N, A):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     advancing counters
     """
     if N <= 0:
