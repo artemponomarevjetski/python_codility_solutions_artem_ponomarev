@@ -27,6 +27,7 @@ class Disc():
 
 def solution(A):
     """
+    Task description is given on Codility website, https://app.codility.com/programmers/
     solution to overlapping disk problem
     """
 
